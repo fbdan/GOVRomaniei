@@ -1,17 +1,19 @@
-#API GOV
+#API GOV Parc Auto + Site prezentare
 
 from flask import Flask,request, url_for,render_template
 from flask.views import View
+import uuid
 #from flask_sqlalchemy import SQLAlchemy
 
 ################ CLASA VIEWURI #######################
-
+'''
 class ShowUsers(View):
     def dispatch_request(self):
         users = User.query.all()
         return render_template('/users.html', objects = users)
 
 app.add_url_rule('/users/', view_func=ShowUsers.as_view('show_users'))
+'''
 ################ INITIALIZARE APPLICATIE #################
 app = Flask(__name__)
 
@@ -53,6 +55,28 @@ def profile(name):
 def not_found(error):
     return render_template('error.html'), 404
 
+############### Trimite TOKEN ###################
+
+@app.route('/ruth')
+def route(): #pagina html cu 
+    return render_template('ruth.html')
+def generate_toke():
+    token = random.getrandbits(32)
+    return token
+    
+
+############### Primire si logare cu TOKEN ##################
+
+@app.route('/login<token>')
+def login():
+    #check token
+    #username and password\\\\\
+    if user in users:
+        return render_template('welcome.html')
+    else:
+        return render_template('/')
+
+
 ############### VERIFICARE METODE CERUTE ################
 
 @app.route('/echo', methods = ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'])
@@ -77,6 +101,8 @@ def api_echo():
 def login(provider_name):
     response = make_response()
     result = authomatic.login(WerkzeugAdapter(request, response), provider_name)
+    
+
 
 
 
