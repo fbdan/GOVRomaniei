@@ -1,7 +1,7 @@
 # GOVRomaniei
 ## HackSociety GOV
-:+1:
-**Echipa:**
+:+1: # Website and Python Flask API
+** Echipa: ** 
 Florea Bogdan
 Cretu Alexandra
 Florian Nicolae
