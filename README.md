@@ -1,7 +1,8 @@
 # GOVRomaniei
- HackSociety GOV
+## HackSociety GOV
 
-Echipa:
+**Echipa:
 Florea Bogdan
 Cretu Alexandra
 Florian Nicolae
+**
