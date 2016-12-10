@@ -1,0 +1,1631 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta name="generator" content="SQL*Plus 11.2.0">
+<style type='text/css'> body {font:10pt Arial,Helvetica,sans-serif; color:black; background:White;} p {font:10pt Arial,Helvetica,sans-serif; color:black; background:White;} table,tr,td {font:10pt Arial,Helvetica,sans-serif; color:Black; background:#f7f7e7; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;} th {font:bold 10pt Arial,Helvetica,sans-serif; color:#336699; background:#cccc99; padding:0px 0px 0px 0px;} h1 {font:16pt Arial,Helvetica,Geneva,sans-serif; color:#336699; background-color:White; border-bottom:1px solid #cccc99; margin-top:0pt; margin-bottom:0pt; padding:0px 0px 0px 0px;-
+} h2 {font:bold 10pt Arial,Helvetica,Geneva,sans-serif; color:#336699; background-color:White; margin-top:4pt; margin-bottom:0pt;} a {font:9pt Arial,Helvetica,sans-serif; color:#663300; background:#ffffff; margin-top:0pt; margin-bottom:0pt; vertical-align:top;}</style><title>SQL*Plus Report</title>
+</head>
+<body>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+NRCRT
+</th>
+<th scope="col">
+OP
+</th>
+<th scope="col">
+PA
+</th>
+<th scope="col">
+KAI
+</th>
+<th scope="col">
+OPE
+</th>
+<th scope="col">
+SMIS_CODE
+</th>
+<th scope="col">
+CONTR_NO
+</th>
+<th scope="col">
+STATUS
+</th>
+<th scope="col">
+TITLE
+</th>
+<th scope="col">
+BENEF_CODE
+</th>
+<th scope="col">
+BENEF_NAME
+</th>
+<th scope="col">
+REGIUNE_BENEF
+</th>
+<th scope="col">
+JUDET_BENEF
+</th>
+<th scope="col">
+LOC_BENEF
+</th>
+<th scope="col">
+START_DAT
+</th>
+<th scope="col">
+END_DATE
+</th>
+<th scope="col">
+CONTRACTOR_TAX_ID
+</th>
+<th scope="col">
+CONTRACTOR_NAME
+</th>
+<th scope="col">
+COUNTRY
+</th>
+<th scope="col">
+ELIG_AMOUNT
+</th>
+<th scope="col">
+LOCAL_CUR_PUBL_EXPEND
+</th>
+<th scope="col">
+CONTR_TYPE_DESCR
+</th>
+<th scope="col">
+PROCED_TYPE_DESCR
+</th>
+<th scope="col">
+SEAP_PUBL
+</th>
+<th scope="col">
+RESPONSIBLE_AUTHORITY
+</th>
+</tr>
+<tr>
+<td align="right">
+                       1
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   53885
+</td>
+<td align="right">
+                  154962
+</td>
+<td>
+Initial
+</td>
+<td>
+CAZARE PERSONAL PROPRIU CRC15COR
+</td>
+<td align="right">
+                    2846
+</td>
+<td>
+Asociatia Profesionala Neguvernamentala de Asistenta Sociala ASSOC
+</td>
+<td>
+NORD-VEST
+</td>
+<td>
+MARAMURES
+</td>
+<td>
+MUNICIPIUL BAIA MARE
+</td>
+<td>
+05-MAY-14
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+000000
+</td>
+<td>
+Furnizor servicii
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                    3900
+</td>
+<td align="right">
+         3900.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                       2
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   49693
+</td>
+<td align="right">
+                  154964
+</td>
+<td>
+Initial
+</td>
+<td>
+SALARIICRC10FCOR
+</td>
+<td align="right">
+                   10414
+</td>
+<td>
+Asociatia Organizatia Caritas Satu Mare
+</td>
+<td>
+NORD-VEST
+</td>
+<td>
+SATU MARE
+</td>
+<td>
+MUNICIPIUL SATU MARE
+</td>
+<td>
+06-MAY-14
+</td>
+<td>
+05-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                    2768
+</td>
+<td align="right">
+         2768.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                       3
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   49432
+</td>
+<td align="right">
+                  154965
+</td>
+<td>
+Initial
+</td>
+<td>
+SALARII CRC10FCOR
+</td>
+<td align="right">
+                    1427
+</td>
+<td>
+Agroserv Management SRL
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+02-MAY-14
+</td>
+<td>
+01-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                     993
+</td>
+<td align="right">
+          993.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                       4
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   52241
+</td>
+<td align="right">
+                  154966
+</td>
+<td>
+Initial
+</td>
+<td>
+SALARII CRC22FCOR
+</td>
+<td align="right">
+                    1443
+</td>
+<td>
+FEDERATIA NATIONALA A SINDICATELOR DIN AGRICULTURA, TUTUN, DOMENII SI SERVICII CONEXE &quot;AGROSTAR&quot;
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+16-MAY-14
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                    8409
+</td>
+<td align="right">
+         8409.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                       5
+</td>
+<td>
+4
+</td>
+<td>
+5
+</td>
+<td>
+5.2
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   58675
+</td>
+<td align="right">
+                  154967
+</td>
+<td>
+Initial
+</td>
+<td>
+SALARII CRC4COR
+</td>
+<td align="right">
+                    6941
+</td>
+<td>
+Agentia Judetean? pentru Ocuparea Fortei de Munc? Galati
+</td>
+<td>
+SUD-EST
+</td>
+<td>
+GALATI
+</td>
+<td>
+MUNICIPIUL GALATI
+</td>
+<td>
+30-APR-15
+</td>
+<td>
+29-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                   27394
+</td>
+<td align="right">
+        27394.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                       6
+</td>
+<td>
+4
+</td>
+<td>
+5
+</td>
+<td>
+5.2
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   58675
+</td>
+<td align="right">
+                  154968
+</td>
+<td>
+Initial
+</td>
+<td>
+SALARII CRC9COR
+</td>
+<td align="right">
+                    6941
+</td>
+<td>
+Agentia Judetean? pentru Ocuparea Fortei de Munc? Galati
+</td>
+<td>
+SUD-EST
+</td>
+<td>
+GALATI
+</td>
+<td>
+MUNICIPIUL GALATI
+</td>
+<td>
+30-APR-15
+</td>
+<td>
+29-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                     540
+</td>
+<td align="right">
+          540.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                       7
+</td>
+<td>
+4
+</td>
+<td>
+5
+</td>
+<td>
+5.2
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   58675
+</td>
+<td align="right">
+                  154969
+</td>
+<td>
+Initial
+</td>
+<td>
+ADMINISTRATIVE CRC9COR
+</td>
+<td align="right">
+                    6941
+</td>
+<td>
+Agentia Judetean? pentru Ocuparea Fortei de Munc? Galati
+</td>
+<td>
+SUD-EST
+</td>
+<td>
+GALATI
+</td>
+<td>
+MUNICIPIUL GALATI
+</td>
+<td>
+30-APR-15
+</td>
+<td>
+29-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                12198.92
+</td>
+<td align="right">
+        12199.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                       8
+</td>
+<td>
+1
+</td>
+<td>
+3
+</td>
+<td>
+3.4
+</td>
+<td>
+2
+</td>
+<td align="right">
+                   52999
+</td>
+<td align="right">
+                  154956
+</td>
+<td>
+Initial
+</td>
+<td>
+DOSAR 777/119/2016/ 05.09.2016
+</td>
+<td align="right">
+                   94787
+</td>
+<td>
+ORASUL BARAOLT
+</td>
+<td>
+CENTRU
+</td>
+<td>
+COVASNA
+</td>
+<td>
+ORAS BARAOLT
+</td>
+<td>
+20-DEC-07
+</td>
+<td>
+31-DEC-15
+</td>
+<td>
+4241826
+</td>
+<td>
+Sigapress SRL
+</td>
+<td>
+RO
+</td>
+<td align="right">
+             18753750.38
+</td>
+<td align="right">
+     18753750.00000
+</td>
+<td>
+contract de lucrari
+</td>
+<td>
+licitatie deschisa
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Agentia pentru Dezvoltare Regionala Centru
+</td>
+</tr>
+<tr>
+<td align="right">
+                       9
+</td>
+<td>
+2
+</td>
+<td>
+1
+</td>
+<td>
+1.1
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   59010
+</td>
+<td align="right">
+                  154954
+</td>
+<td>
+Initial
+</td>
+<td>
+Auditul proiectului
+</td>
+<td align="right">
+                    9858
+</td>
+<td>
+HARVIZ SA
+</td>
+<td>
+CENTRU
+</td>
+<td>
+HARGHITA
+</td>
+<td>
+MUNICIPIUL MIERCUREA CIUC
+</td>
+<td>
+26-NOV-15
+</td>
+<td>
+26-MAY-16
+</td>
+<td>
+21896290
+</td>
+<td>
+SMART OPTION S.R.L.
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                   21000
+</td>
+<td align="right">
+        21000.00000
+</td>
+<td>
+contract de servicii
+</td>
+<td>
+cumparare directa
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organism Intermediar pentru POS Mediu Sibiu
+</td>
+</tr>
+<tr>
+<td align="right">
+                      10
+</td>
+<td>
+2
+</td>
+<td>
+1
+</td>
+<td>
+1.1
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   58591
+</td>
+<td align="right">
+                  154955
+</td>
+<td>
+Initial
+</td>
+<td>
+CS4E - Servicii de audit
+</td>
+<td align="right">
+                    6292
+</td>
+<td>
+SC Compania de Apa Oradea SA
+</td>
+<td>
+NORD-VEST
+</td>
+<td>
+BIHOR
+</td>
+<td>
+MUNICIPIUL ORADEA
+</td>
+<td>
+22-OCT-15
+</td>
+<td>
+17-NOV-16
+</td>
+<td>
+12780287
+</td>
+<td>
+GHE STUBEANU 2000
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                   39800
+</td>
+<td align="right">
+        39800.00000
+</td>
+<td>
+contract de servicii
+</td>
+<td>
+licitatie deschisa
+</td>
+<td>
+14-JUL-15
+</td>
+<td>
+Organism Intermediar pentru POS Mediu Cluj-Napoca
+</td>
+</tr>
+<tr>
+<td align="right">
+                      11
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   53885
+</td>
+<td align="right">
+                  154958
+</td>
+<td>
+Initial
+</td>
+<td>
+SALARII CRC15 COR
+</td>
+<td align="right">
+                    2846
+</td>
+<td>
+Asociatia Profesionala Neguvernamentala de Asistenta Sociala ASSOC
+</td>
+<td>
+NORD-VEST
+</td>
+<td>
+MARAMURES
+</td>
+<td>
+MUNICIPIUL BAIA MARE
+</td>
+<td>
+05-MAY-14
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                  165000
+</td>
+<td align="right">
+       165000.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      12
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   53885
+</td>
+<td align="right">
+                  154959
+</td>
+<td>
+Initial
+</td>
+<td>
+CATERING CRC15COR
+</td>
+<td align="right">
+                    2846
+</td>
+<td>
+Asociatia Profesionala Neguvernamentala de Asistenta Sociala ASSOC
+</td>
+<td>
+NORD-VEST
+</td>
+<td>
+MARAMURES
+</td>
+<td>
+MUNICIPIUL BAIA MARE
+</td>
+<td>
+05-MAY-14
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+000000
+</td>
+<td>
+Furnizor servicii
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                     630
+</td>
+<td align="right">
+          630.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      13
+</td>
+<td>
+2
+</td>
+<td>
+2
+</td>
+<td>
+2.1
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   38772
+</td>
+<td align="right">
+                  154953
+</td>
+<td>
+Initial
+</td>
+<td>
+Servicii de elaborare a DTE;servicii de asigurare a asistentei tehnice din partea proiectantului ptr depozitul Roesti
+</td>
+<td align="right">
+                    1170
+</td>
+<td>
+Consiliul Judetean Valcea
+</td>
+<td>
+SUD-VEST OLTENIA
+</td>
+<td>
+VALCEA
+</td>
+<td>
+MUNICIPIUL RAMNICU VALCEA
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+14-SEP-16
+</td>
+<td>
+30087239
+</td>
+<td>
+ERSTE PLAN SRL
+</td>
+<td>
+RO
+</td>
+<td align="right">
+               188827.53
+</td>
+<td align="right">
+       188828.00000
+</td>
+<td>
+contract de servicii
+</td>
+<td>
+cerere de oferta
+</td>
+<td>
+15-OCT-15
+</td>
+<td>
+Organism Intermediar pentru POS Mediu Pitesti
+</td>
+</tr>
+<tr>
+<td align="right">
+                      14
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   49713
+</td>
+<td align="right">
+                  154971
+</td>
+<td>
+Initial
+</td>
+<td>
+Cheltuieli subventii CORECTIV
+</td>
+<td align="right">
+                    7493
+</td>
+<td>
+PATRONATUL ROMAN
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+01-DEC-15
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+000002
+</td>
+<td>
+ANGAJATOR
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                  136300
+</td>
+<td align="right">
+       136300.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      15
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   49713
+</td>
+<td align="right">
+                  154972
+</td>
+<td>
+Initial
+</td>
+<td>
+Cheltuieli consumabile CORECTIV
+</td>
+<td align="right">
+                    7493
+</td>
+<td>
+PATRONATUL ROMAN
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+01-DEC-15
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                 28329.6
+</td>
+<td align="right">
+        28330.00000
+</td>
+<td>
+contract de furnizare
+</td>
+<td>
+cumparare directa
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      16
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   49455
+</td>
+<td align="right">
+                  154963
+</td>
+<td>
+Initial
+</td>
+<td>
+FEDR CRC 22 F corectiva
+</td>
+<td align="right">
+                    7547
+</td>
+<td>
+Fundatia Serviciilor Sociale Bethany
+</td>
+<td>
+VEST
+</td>
+<td>
+TIMIS
+</td>
+<td>
+MUNICIPIUL TIMISOARA
+</td>
+<td>
+02-MAY-14
+</td>
+<td>
+31-OCT-15
+</td>
+<td>
+10442840
+</td>
+<td>
+M&amp;M MEDIANET COM SRL
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                22281.56
+</td>
+<td align="right">
+        22282.00000
+</td>
+<td>
+contract de furnizare
+</td>
+<td>
+cumparare directa
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      17
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   53353
+</td>
+<td align="right">
+                  154957
+</td>
+<td>
+Initial
+</td>
+<td>
+Cheltuieli RU management RECTIFICATIV
+</td>
+<td align="right">
+                  122089
+</td>
+<td>
+TECHNICAL TRAINING SRL 
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+12-MAY-14
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+000002
+</td>
+<td>
+ANGAJATOR
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                24614.25
+</td>
+<td align="right">
+        24614.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      18
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   53155
+</td>
+<td align="right">
+                  154960
+</td>
+<td>
+Initial
+</td>
+<td>
+Cheltuieli RU management CORECTIV
+</td>
+<td align="right">
+                  122089
+</td>
+<td>
+TECHNICAL TRAINING SRL 
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+12-MAY-14
+</td>
+<td>
+15-DEC-15
+</td>
+<td>
+000002
+</td>
+<td>
+ANGAJATOR
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                 2398.69
+</td>
+<td align="right">
+         2399.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      19
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   53155
+</td>
+<td align="right">
+                  154961
+</td>
+<td>
+Initial
+</td>
+<td>
+Cheltuieli externalizate management CORECTIV
+</td>
+<td align="right">
+                  122089
+</td>
+<td>
+TECHNICAL TRAINING SRL 
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+12-MAY-14
+</td>
+<td>
+15-DEC-16
+</td>
+<td>
+000000
+</td>
+<td>
+Furnizor servicii
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                28989.39
+</td>
+<td align="right">
+        28989.00000
+</td>
+<td>
+contract de servicii
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+<tr>
+<td align="right">
+                      20
+</td>
+<td>
+4
+</td>
+<td>
+6
+</td>
+<td>
+6.3
+</td>
+<td>
+***
+</td>
+<td align="right">
+                   53884
+</td>
+<td align="right">
+                  154970
+</td>
+<td>
+Initial
+</td>
+<td>
+COSTURI CORECTIVE CONTESTATIE
+</td>
+<td align="right">
+                  122494
+</td>
+<td>
+Patronatul Femeilor de Afaceri al Intreprinderilor Mici si Mijlocii din Municipiul Bucuresti
+</td>
+<td>
+BUCURESTI - ILFOV
+</td>
+<td>
+BUCURESTI
+</td>
+<td>
+MUNICIPIUL BUCURESTI
+</td>
+<td>
+01-DEC-15
+</td>
+<td>
+31-DEC-15
+</td>
+<td>
+0000000
+</td>
+<td>
+Furnizor
+</td>
+<td>
+RO
+</td>
+<td align="right">
+                  100000
+</td>
+<td align="right">
+       100000.00000
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+Organismul Intermediar Regional POS DRU Vest
+</td>
+</tr>
+</table>
+<p>
+</body>
+</html>
